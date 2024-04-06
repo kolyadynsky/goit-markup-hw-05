@@ -460,3 +460,248 @@ h3 {
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
+
+.subscribe-btn {
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 8px 24px;
+  background-color: #4D5AE5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  height: 40px;
+  border-radius: 4px;
+  /* display: block; */
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+input::placeholder {
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  /* opacity: 0.7; */
+}
+
+.subscribe-inp {
+  background-color: #2E2F42;
+  width: 264px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-subscribe {
+  margin-left: 80px;
+}
+
+.frame {
+  fill: #FFFFFF;
+}
+
+.form-sub {
+  display: flex;
+  gap: 24px;
+}
+.modal-form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.policy{
+ flex-direction: row;
+ padding-top: 16px;
+}
+
+.modal-sub {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window {
+  width: 408px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background: #fcfcfc;
+  border-radius: 4px;
+  padding: 24px;
+
+}
+
+.x-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: #e7e9fc;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.xsvg {
+  fill: #2e2f42;
+}
+
+.x-icon:hover .xsvg {
+  fill: #FFFFFF;
+}
+.x-icon:hover {
+  background-color: #404BBF;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.modal-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+
+.modal-textarea {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  padding: 8px 16px;
+}
+
+.policy {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.modal-input-div{
+  position: relative;
+}
+
+.modal-input-svg {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  fill: #2E2F42;
+}
+
+.policy-check {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.policy-link {
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
+input::placeholder {
+  padding-left: 16px;
+  
+}
+
+.modal-btn {
+  gap: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  margin: 0 auto;
+  width: 169px;
+  margin-top: 24px;
+}
+
+input,
+textarea {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+  outline: #4D5AE5;
+  border: 1px solid #4d5ae5;
+}
+
+input:not(.modal-input-policy, .subscribe-inp) {
+  height: 40px;
+  width: 100%;
+  text-indent: 34px;
+}
+
+input:active+.modal-input-svg,
+input:focus+.modal-input-svg
+{
+  fill: #4D5AE5;
+}
+
+.policy-div {
+  position: relative;
+}
+
+.policcy-svg {
+ position: absolute;
+ visibility: hidden;
+}
+
+input[type="checkbox"]:checked {
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked+.policcy-svg{
+  visibility: visible;
+}
