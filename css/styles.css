@@ -535,6 +535,10 @@ input::placeholder {
   margin-bottom: 8px;
 }
 
+.form-div-textarea {
+  margin-bottom: 16px;
+}
+
 label {
   display: flex;
   flex-direction: column;
@@ -618,6 +622,7 @@ label {
 .x-icon:hover,
 .x-icon:focus {
   background-color: #404BBF;
+  border: none;
 }
 
 .modal-title {
@@ -658,6 +663,10 @@ label {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-textarea:focus {
+  border-color: #4D5AE5;
+}
+
 .policy {
   display: flex;
   align-items: center;
@@ -689,9 +698,9 @@ label {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-div-content {
+/* .modal-div-content {
   margin-bottom: 16px;
-}
+} */
 
 .policy-link {
   line-height: 1.33333;
@@ -791,9 +800,10 @@ input:focus+.modal-input-svg
 /* input[type="checkbox"]:checked+.policcy-svg{
   visibility: visible;
 } */
-.modal-input-policy:checked+.policcy-svg {
+.modal-input-policy:checked+.policcy-span-svg {
   visibility: visible;
   border: none;
   fill:#F4F4FD;
-
-}
+  background-color: #404bbf;
+  border: none;
+  }
