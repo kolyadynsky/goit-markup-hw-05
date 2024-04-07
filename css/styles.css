@@ -671,13 +671,13 @@ label {
   border-color: #4D5AE5;
 }
 
-.policy {
+/* .policy {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 8px;
-}
+} */
 
 .modal-input-div{
   position: relative;
