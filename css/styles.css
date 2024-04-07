@@ -672,7 +672,7 @@ input::placeholder {
 }
 
 .policy {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
