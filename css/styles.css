@@ -746,7 +746,7 @@ input::placeholder {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -800,7 +800,7 @@ input:focus+.modal-input-svg
 /* input[type="checkbox"]:checked+.policcy-svg{
   visibility: visible;
 } */
-.modal-input-policy:checked+.policcy-span-svg {
+.modal-input-policy:checked+.policy .policcy-span-svg {
   visibility: visible;
   border: none;
   fill:#F4F4FD;
