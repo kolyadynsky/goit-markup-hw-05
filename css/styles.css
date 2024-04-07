@@ -294,6 +294,9 @@ h3 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+ /* .visually-hidden {
+   visibility: hidden;
+ } */
 /* -------------- */
 .sosial {
   display: flex;
@@ -661,6 +664,7 @@ label {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  line-height: 1.17;
 }
 
 .modal-textarea:focus {
@@ -742,7 +746,7 @@ input::placeholder {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -765,11 +769,7 @@ textarea:focus {
 input:not(.modal-input-policy, .subscribe-inp) {
   height: 40px;
   width: 100%;
-  text-indent: 34px;
-}
-
- .visually-hidden {
-  visibility: hidden;
+  /* text-indent: 34px; */
 }
 
 input:active+.modal-input-svg,
