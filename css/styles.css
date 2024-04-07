@@ -542,10 +542,10 @@ input::placeholder {
   margin-bottom: 16px;
 }
 
-label {
+/* label {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .policy{
   flex-direction: row;
@@ -671,13 +671,13 @@ label {
   border-color: #4D5AE5;
 }
 
-/* .policy {
+.policy {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 8px;
-} */
+}
 
 .modal-input-div{
   position: relative;
@@ -782,9 +782,9 @@ input:focus+.modal-input-svg
   position: relative;
   margin-bottom: 24px;
 }
-/* .policcy-svg */
+
 .policcy-svg {
- position: absolute;
+ /* position: absolute; */
  visibility: hidden;
 }
 
