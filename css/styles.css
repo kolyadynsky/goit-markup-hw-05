@@ -782,7 +782,7 @@ input:focus+.modal-input-svg
   position: relative;
   margin-bottom: 24px;
 }
-
+/* .policcy-svg */
 .policcy-svg {
  position: absolute;
  visibility: hidden;
@@ -790,7 +790,7 @@ input:focus+.modal-input-svg
 
 .modal-input-policy:checked {
   visibility: hidden;
-  background-color: #404bbf;;
+  /* background-color: #404bbf;; */
 }
 
 /* input[type="checkbox"]:checked {
@@ -806,4 +806,9 @@ input:focus+.modal-input-svg
   fill:#F4F4FD;
   background-color: #404bbf;
   border: none;
-  }
+}
+
+.modal-input-policy:checked+.policy .policcy-svg {
+  visibility: visible;
+  fill: #F4F4FD;
+}
